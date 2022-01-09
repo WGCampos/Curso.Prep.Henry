@@ -1,0 +1,18 @@
+* Variable:
+Es un lugar de almacenamiento la cual tiene un nombre y este contiene un tipo valor sea este numerico, palabras o falso y verdaderos.
+
+
+* Strings
+Son letras que forman palabras estas siempre van entre comillas.
+
+* Funciones (argumentos, `return`)
+Las funciones son como los objetos que conoces en el mundo circundante.
+Estas tienen argumentos los cuales son variables estos a la vez pueden tener muchos valores.
+Tambien utiliza return para devolver un resultado.
+
+
+* Declaraciones `if`
+Es una sentencia condicional si se cumple una condicion hacer algo.
+
+* Valores booleanos (`true`, `false`)
+Permite realizar comparaciones verdadero y falso sobre determinados valores.
