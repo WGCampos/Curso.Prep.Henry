@@ -47,7 +47,7 @@ function resta(x, y) {
   return resta(x-y)
 }
 
-function multiplica(x=5, y=2) {
+function multiplica(x=6, y=2) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
   retun (x*y)
