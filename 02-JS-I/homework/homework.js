@@ -43,20 +43,20 @@ function suma(x, y) {
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  resta(10 - 8)
-  return resta
+  
+  return resta(x-y)
 }
 
-function multiplica(x, y) {
+function multiplica(x=5, y=2) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  
+  retun (x*y)
 }
 
-function divide(x, y) {
+function divide(x=10, y=2) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  
+  return (x/y)
 }
 
 function sonIguales(x, y) {
