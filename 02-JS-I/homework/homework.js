@@ -43,7 +43,8 @@ function suma(x, y) {
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  
+  resta(10 - 8)
+  return resta
 }
 
 function multiplica(x, y) {
