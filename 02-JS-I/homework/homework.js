@@ -53,7 +53,7 @@ function multiplica(x=6, y=2) {
   retun (x*y)
 }
 
-function divide(x=10, y=2) {
+function divide(x=20, y=2) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
   return (x/y)
