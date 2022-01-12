@@ -1,0 +1,23 @@
+for
+Es un ciclo, este es algo que se repite 
+esto segun las veces que usted quiera,
+la repitencia depende de la condicion que
+la hace la persona ademas se le da un valor 
+inicial a una variable que se utiliza 
+dentro de la condicion, la cual se incrementa
+sirven para trabajar con cantidades de 
+datos.
+
+
+&&,
+Es el operador lógico (y), este si y solo si ambos 
+son verdaderos devuelve un valor verdadero.
+sir para los condicionales.
+
+ ||
+Es el operador lógico (o), este al menos uno es verdadero 
+entonces es verdadero de lo contrario será falso.
+
+!
+Es el un operador lógico que sirve para 
+negar todo lo que le preceda
