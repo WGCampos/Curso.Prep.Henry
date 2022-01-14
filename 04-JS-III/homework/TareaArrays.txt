@@ -1,0 +1,5 @@
+Arrays
+son variables del mismo tipo de dato que tienen el mismo nombre
+ y que se distinguen y referencían por un índice. El valor siempre 
+comienza en cero, este vive en la memoria principal de la
+computadora. 
