@@ -251,8 +251,7 @@ function deEuroAdolar(euro){
   //Escribe tu código aquí
   Euros=parseInt(prompt("Cantidad en Euros"));
   Dollar=Euros*1.20;
-  return dollar
-}
+  }
 
 
 function esVocal(letra){
