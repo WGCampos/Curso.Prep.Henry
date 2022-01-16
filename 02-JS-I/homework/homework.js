@@ -64,10 +64,10 @@ function sonIguales(x, y) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (x===y) {
-    return verdadero;
+    return true;
   }
      else {   
-        return Falso;
+        return false;
   }
 }
 
@@ -111,7 +111,7 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  return (x%y)
+  return (x%y);
 }
 
 function esPar(num) {
@@ -160,9 +160,9 @@ function elevar(num, exponent) {
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  resto = num % 1;
-  entero = num - resto;
-  if (resto>=0.5){
+  resta = num % 1;
+  entero = num - resta;
+  if (resta>=0.5){
     return (entero+1);
       }
       else{
