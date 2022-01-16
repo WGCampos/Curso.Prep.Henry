@@ -50,7 +50,7 @@ function resta(x, y) {
 function multiplica(x=6, y=2) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  retun (x*y)
+  retun (x*y);
 }
 
 function divide(x=20, y=2) {
