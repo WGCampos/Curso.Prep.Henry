@@ -220,13 +220,13 @@ function obtenerSaludo(nombre) {
   // "Martin" -> "Hola Martin!"
   // Tu código:
   Saludo  =  'Hola'+ ' ' + nombre + '!' ;
-  return  Saludo ;
+  return  Saludo;
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un rectángulo teniendo su altura y ancho
   // Tu código:
-  return (area= alto*ancho);
+  return area= (alto*ancho);
 }
 
 
@@ -251,6 +251,7 @@ function deEuroAdolar(euro){
   //Escribe tu código aquí
   Euros=parseInt(prompt("Cantidad en Euros"));
   Dollar=Euros*1.20;
+  return dollar
 }
 
 
