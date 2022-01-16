@@ -44,7 +44,7 @@ function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
   
-  return resta(x-y)
+  return resta(x-y);
 }
 
 function multiplica(x=6, y=2) {
