@@ -75,6 +75,7 @@ function arrayContiene(array, elemento) {
       return true;
     }
   }
+
   return false;
 }
 
@@ -83,6 +84,12 @@ function agregarNumeros(numeros) {
   // "numeros" debe ser un arreglo de enteros (int/integers)
   // Suma todos los enteros y devuelve el valor
   // Tu código:
+   numeros=[1, 2, 3, 4, 5, 6];
+  var suma = 0;
+  for(var i = 0; i < numeros.length; i++) {
+    suma = suma + numeros[i];
+  }
+  return suma;
 }
 
 
@@ -102,7 +109,7 @@ function numeroMasGrande(numeros) {
 
 function multiplicarArgumentos() {
   // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto
-  // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
+// Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
   // Escribe tu código aquí:
 }
 
