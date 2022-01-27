@@ -1,0 +1,27 @@
+	* Objetos
+Es un colección de propiedades, los objetivos cuando en su propiedades tiene por valor 
+una función se convierten ese objeto en un metodo, ademas existen objetos del navegador,
+pero el desarrollador puede definir sus propios objetos.
+
+
+	* Propiedades
+Una propiedad es una asociación entre un nombre (o clave) y un valor, es decir si hablamos de animales_Caninos
+existen muchas razas, estas aunque sean diferentes tienen similitudes en el pelaje.
+
+	* Métodos
+
+son funciones de un objeto; son acciones que se le pueden realizar a un objeto.
+
+
+	* Bucle `for…in`
+La instrucción de bucle for...in devolverá todas las propiedades enumerables, 
+incluidas aquellas con nombres no enteros y aquellas que se heredan. 
+Debido a que el orden de iteración depende de la implementación, es 
+posible que la iteración sobre un arreglo no visite los elementos en un orden coherente.
+
+	* Notación de puntos vs notación de corchetes
+Hay dos métodos para que JavaScript acceda a las propiedades del objeto, el primero es la notación de puntos, 
+el segundo es la notación de corchetes y el valor entre corchetes puede ser 
+cualquier expresión. Por lo tanto, si el nombre del atributo se almacena en una variable, 
+puede usar la notación de corchetes.
+
