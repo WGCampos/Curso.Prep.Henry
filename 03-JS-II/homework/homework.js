@@ -5,8 +5,8 @@ function obtenerMayor(x, y) {
   // Devuelve el número más grande
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código:
-X=10;
-y=11
+  x=10;
+  y=11;
   if (x>y){
   return x;
 }   
@@ -20,10 +20,10 @@ function mayoriaDeEdad(edad) {
   //Si tiene 18 años ó más, devolver --> "Allowed"
   //Si es menor, devolver --> "Not allowed"
   if (edad>=18){
-    return "Alloweb";
+    return "Allowed";
   }
   else {
-    return "Not Alloweb";
+    return "Not Allowed";
   }
 }
   
@@ -131,15 +131,16 @@ function fizzBuzz(numero) {
   // Si "numero" es divisible entre 5, devuelve "buzz"
   // Si "numero" es divisible entre 3 y 5 (ambos), devuelve "fizzbuzz"
   // De lo contrario, devuelve el numero
-  if(numero % 15 === 0){
-      return 'fizzbuzz';
-  }
+  
   if(numero % 3 === 0) {
       return 'fizz';
   }
   if(numero % 5 === 0){
    return 'buzz';
   }
+  if(numero % 15 === 0){
+    return 'fizzbuzz';
+}
   else{
     return numero;
 }
