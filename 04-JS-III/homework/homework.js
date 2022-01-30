@@ -3,7 +3,7 @@
 function devolverPrimerElemento(array) {
   // Devuelve el primer elemento de un  array (pasado por parametro)
   // Tu código:
-  array ["Hola", 1, 2, 3, ["Wilber", "Campos"]];
+  array ["Hola", 1, 2, 3];
   return array[0];
 }
 
