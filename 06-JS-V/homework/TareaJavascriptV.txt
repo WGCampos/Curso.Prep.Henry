@@ -1,0 +1,15 @@
+Prototype
+Un prototipo en javascript es un objeto
+que puede contener muchas propiedades.
+Un prototype llama a cuantas propiedades
+crea el desarrollador, pero a la vez 
+ella tiene integradas otras.
+
+
+Constructors (de Clases)
+El método constructor es un metodo especial
+para crear e inicializar un objeto creado4
+a partir de una clase.
+solo puede haber un metodo especial llamado
+constuctor. Sino se crea un metodo javascript
+utiliza uno por defecto.

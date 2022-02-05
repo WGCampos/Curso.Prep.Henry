@@ -62,7 +62,7 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
-  return palabras.join(' ');
+  return palabras.join('Hello',  'world!');
 }
 
 
@@ -97,7 +97,9 @@ function promedioResultadosTest(resultadosTest) {
   // "resultadosTest" debe ser una matriz de enteros (int/integers)
   // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
   // Tu código:
-  return agregarNumeros (resultadosTest) / resultadosTest.length;
+      for(var i=0; i<resultadosTest.length; i++){
+  return promedioResultadosTest=(resultadosTest[i]) / resultadosTest.length;
+}
 }
 
 
@@ -120,7 +122,9 @@ function multiplicarArgumentos() {
   // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto
 // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
   // Escribe tu código aquí:
-  if(arguments.length < 1) return 0;
+  if(arguments.length < 1){
+    return 0;
+  } 
   var total = 1;
   for(var i = 0; i < arguments.length; i++) {
     total = total * arguments[i];
@@ -132,14 +136,14 @@ function cuentoElementos(arreglo){
   //Realiza una función que retorne la cantidad de los elementos del arreglo cuyo valor es mayor a 18.
   //Escribe tu código aquí
   let contador = 0;
-  for (let i = 0; i < arreglo.length ; i++) {
+  for (let i = 2; i < arreglo.length ; i++) {
     if(arreglo[i] > 18){
       contador=contador + 1;
     }
   }
   return contador
 }
-
+ 
 
 function diaDeLaSemana(numeroDeDia) {
   //Suponga que los días de la semana se codifican como 1 = Domingo, 2 = Lunes y así sucesivamente. 
@@ -170,10 +174,10 @@ function todosIguales(arreglo) {
   //Escribe tu código aquí  
   for (var i =0 ; i < arreglo.length - 1; i++) {
     if(arreglo[i] !== arreglo[i+1]){
-      return false
+      return false;
     }
   }
-  return true
+  return true;
 } 
 
 
