@@ -31,7 +31,11 @@ function invocarMetodo(objeto, metodo) {
   // Invoca ese método
   // Nada necesita ser devuelto ("returned")
   // Tu código:
-  objeto[metodo]();
+  objeto = {
+    metodo: function() {
+      console.log("Hola");
+    }
+  }
 }
 
 function multiplicarNumeroDesconocidoPorCinco(objetoMisterioso) {
@@ -47,8 +51,7 @@ function eliminarPropiedad(objeto, unaPropiedad) {
   // tip: tenes que usar bracket notation
   // Devuelve el objeto
   // Tu código:
-  delete objeto[propiedad];
-
+  delete objeto[unaPropiedad];
   return objeto;
 }
 
@@ -59,7 +62,7 @@ function nuevoUsuario(nombre, email, password) {
   var obj = {
     nombre: nombre,
     email: email,
-    password: password
+    password: password,
   }
 
   return obj;
@@ -88,7 +91,7 @@ function tienePropiedad(objeto, propiedad) {
     return "Propiedad es un String";
   }
   else{
-    return false
+    return false;
   }
 }
 
